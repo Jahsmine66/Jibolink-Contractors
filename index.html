@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jibolink Contractor Nigeria Limited</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader Section -->
+    <div class="loader-section" id="loaderSection">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <div class="loading-text">Building a great experience for you...</div>
+            <div class="success-message" id="successMessage">
+                <h4>Welcome to Jibolink Contractors –  </h4>
+                <p>Your trusted partner for construction, property services, and more. Let’s build something extraordinary together!...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content" id="main-content">
+        <!-- Navigation -->
+        <nav class="navbar" id="mainNav">
+            <div class="nav-container">
+                <a class="navbar-brand" href="#home"><img src="./Asset/new-logo-2.png" alt="logo"></a>
+                <button class="navbar-toggler" id="navToggle">
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Project-Done</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="announcement-bar">
+            <marquee behavior="scroll" direction="left">Sales of Prime Landed Properties | Professional Plumbing & Electrical Services | Quality Building Construction | Comprehensive Facility Management | Reliable Civil Works | High-Quality Building Materials Supply  </marquee>
+        </div>
+
+        <!-- Hero Section with Carousel -->
+        <section id="home" class="hero-section">
+            <div class="carousel" id="heroCarousel">
+                <div class="carousel-inner">
+                    <div class="carousel-slide active">
+                        <img src="./Asset/land.jpg" alt="Construction Site 1">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1>Your Reliable Partner for Prime Land and Property Sales</h1>
+                            <p>Explore a wide range of properties from residential lands to commercial estates, tailored to your needs. </p>
+                            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide active">
+                        <img src="./Asset//DALL·E 2024-11-07 00.42.28 - A simple, modern two-story residential building with a dark green and white color scheme. The design is minimalistic, with subtle landscaping featurin.webp" alt="Construction Site 1">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1>Your Trusted Partner in Construction</h1>
+                            <p>Building Tomorrow's Infrastructure Today</p>
+                            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./Asset/DALL·E 2024-11-07 00.42.32 - A simple, modern two-story residential building under construction with a dark green and white color scheme. The structure has scaffolding around part.webp" alt="Construction Site 2">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1>Excellence in Building</h1>
+                            <p>Quality Construction Services Across Nigeria</p>
+                            <a href="#services" class="btn btn-primary">Our Services</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./Asset/team.jpg" alt="Construction Site 3">
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-content">
+                            <h1>Professional Expertise</h1>
+                            <p>Skilled Team for Every Project</p>
+                            <a href="#about" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control prev" id="prevSlide">&#10094;</button>
+                <button class="carousel-control next" id="nextSlide">&#10095;</button>
+                <div class="carousel-indicators" id="carouselIndicators"></div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-content">
+                            <i class="fas fa-building service-icon"></i>
+                            <h3>Sales of Properties</h3>
+                            <p> Experience hassle-free property transactions with our expert guidance at every step. Flexible payment plans available to make owning your dream property easier. </p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <i class="fas fa-tools service-icon"></i>
+                            <h3>Plumbing Services</h3>
+                            <p>Professional plumbing installation, maintenance, and repairs for residential and commercial properties.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <i class="fas fa-bolt service-icon"></i>
+                            <h3>Electrical Services</h3>
+                            <p>Complete electrical solutions including installations, maintenance, and emergency repairs.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <i class="fas fa-boxes service-icon"></i>
+                            
+                            <h3>Building Construction and building Materials Supply</h3>
+                            <p>End-to-end building construction services with focus on quality and timely delivery. Supply and distribution of high-quality building materials and construction supplies.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <i class="fas fa-cogs service-icon"></i>
+                            <h3>Facility Management</h3>
+                            <p>Comprehensive facility management services to maintain and optimize your property.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <i class="fas fa-hard-hat service-icon"></i>
+                            <h3>Civil Works</h3>
+                            <p>Expert civil engineering and construction works for various infrastructure projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Jibolink</h2>
+                <div class="about-content">
+                    <div class="about-card">
+                        <p class="p1">Jibolink Contractor Nigeria Limited is a premier construction, maintenance, and property services company with a reputation for delivering exceptional service quality and customer satisfaction across Nigeria. With over a decade of experience, we have grown to become a trusted partner for residential, commercial, and industrial projects.</p>
+
+
+                        <p>Our range of services is extensive and tailored to meet the evolving needs of our customers. We specialize in professional plumbing, electrical installations, facility management, civil works, and end-to-end building construction. Each of these services is handled by highly skilled professionals who are dedicated to ensuring that every project adheres to the highest standards of quality and safety.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project- Section -->
+        <section id="project" class="project-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-container">
+                <div class="project-item">
+                    <img src="./Asset/projects/ash-house.jpg" alt="Project 1">
+                    <div class="overlay">
+                    <h3>Project 1</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/ashhouse-2.jpg" alt="Project 2">
+                    <div class="overlay">
+                    <h3>Project 2</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/brown-house.jpg" alt="Project 3">
+                    <div class="overlay">
+                    <h3>Project 3</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/construction.jpg" alt="Project 4">
+                    <div class="overlay">
+                    <h3>Project 4</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/cream house 2.jpg" alt="Project 5">
+                    <div class="overlay">
+                    <h3>Project 5</h3>
+                </div>
+                </div>
+                <!-- Additional project items will be dynamically added here -->
+                <div class="project-item">
+                    <img src="./Asset/projects/cream-house.jpg" alt="Project 6">
+                    <div class="overlay">
+                    <h3>Project 6</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/duplex-2.jpg" alt="Project 7">
+                    <div class="overlay">
+                    <h3>Project 7</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/duplex.jpg" alt="Project 8">
+                    <div class="overlay">
+                    <h3>Project 8</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/inner-2.jpg" alt="Project 9">
+                    <div class="overlay">
+                    <h3>Project 9</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/inner-3.jpg" alt="Project 10">
+                    <div class="overlay">
+                    <h3>Project 10</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/inner.jpg" alt="Project 11">
+                    <div class="overlay">
+                    <h3>Project 11</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/level 2.jpg" alt="Project 12">
+                    <div class="overlay">
+                    <h3>Project 12</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/level-work.jpg" alt="Project 13">
+                    <div class="overlay">
+                    <h3>Project 13</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/level.jpg" alt="Project 14">
+                    <div class="overlay">
+                    <h3>Project 14</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/not-painted.jpg" alt="Project 15">
+                    <div class="overlay">
+                    <h3>Project 15</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/oga.jpg" alt="Project 16">
+                    <div class="overlay">
+                    <h3>Project 16</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/plain-land.jpg" alt="Project 17">
+                    <div class="overlay">
+                    <h3>Project 17</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/uncompleted-2.jpg" alt="Project 18">
+                    <div class="overlay">
+                    <h3>Project 18</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/uncompleted-3.jpg" alt="Project 19">
+                    <div class="overlay">
+                    <h3>Project 19</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/uncompleted.jpg" alt="Project 20">
+                    <div class="overlay">
+                    <h3>Project 20</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/underconstruction-2.jpg" alt="Project 21">
+                    <div class="overlay">
+                    <h3>Project 21</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/underconstruction.jpg" alt="Project 22">
+                    <div class="overlay">
+                    <h3>Project 22</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/water.jpg" alt="Project 23">
+                    <div class="overlay">
+                    <h3>Project 23</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/work-2.jpg" alt="Project 24">
+                    <div class="overlay">
+                    <h3>Project 24</h3>
+                </div>
+                </div>
+                <div class="project-item">
+                    <img src="./Asset/projects/work-3.jpg" alt="Project 25">
+                    <div class="overlay">
+                    <h3>Project 25</h3>
+                </div>
+                </div>
+            </div>
+            <button id="load-more">Check More</button>
+            <button id="show-all">Show All</button>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel: +2348030834888">+234 803 083 4388</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:contact@jibolink.com">contact@jibolink.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Lagos, Nigeria
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-form-container">
+                        <h1>Contact us</h1>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="email">Name</label>
+                                <input type="text" id="text" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">How Can We Help You?</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="customer-feedback">
+                <div class="container text-center">
+                    <div class="row">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div>
+                        <h2 class="section-title">What Clients Say</h2>
+                        </div>
+                    </div><!-- /End col -->
+                    </div><!-- /End row -->
+            
+                    <div class="row">
+                    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+                        <div class="owl-carousel feedback-slider">
+            
+                        <!-- slider item -->
+                        <div class="feedback-slider-item">
+                            <img src="//c2.staticflickr.com/8/7310/buddyicons/24846422@N06_r.jpg" class="center-block img-circle" alt="Customer Feedback">
+                            <h3 class="customer-name">Lisa Redfern</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable its layout.</p>
+                        </div>
+                        <!-- /slider item -->
+            
+                        <!-- slider item -->
+                        <div class="feedback-slider-item">
+                            <img src="https://i.postimg.cc/ydBjdm20/michael-dam-m-EZ3-Po-FGs-k-unsplash-1.jpg" class="center-block img-circle" alt="Customer Feedback">
+                            <h3 class="customer-name">Cassi</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable its layout.</p>
+                        </div>
+                        <!-- /slider item -->
+            
+                        <!-- slider item -->
+                        <div class="feedback-slider-item">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/451270/profile/profile-80.jpg" class="center-block img-circle" alt="Customer Feedback">
+                            <h3 class="customer-name">Md Nahidul</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable its layout.</p>
+                        </div>
+                        <!-- /slider item -->
+            
+                        </div><!-- /End feedback-slider -->
+            
+                        <!-- side thumbnail -->
+                        <div class="feedback-slider-thumb hidden-xs">
+                        <div class="thumb-prev">
+                            <span>
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/451270/profile/profile-80.jpg" alt="Customer Feedback">
+                            </span>
+                            <span class="light-bg customer-rating">
+                            5
+                            <i class="fa fa-star"></i>
+                            </span>
+                        </div>
+            
+                        
+                        
+                        <!-- /side thumbnail -->
+                    </div><!-- /End col -->
+                    </div><!-- /End row -->
+                </div><!-- /End container -->
+                </div><!-- /End customer-feedback -->
+        </section>  
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <img src="./Asset/logo.png" alt="">
+                        <h3>Jibolink</h3>
+                        <p>Your trusted partner in construction and maintenance services.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#project">Project</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Office Hours</h3>
+                        <p>
+                            Monday - Friday: 8:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 2:00 PM<br>
+                            Sunday: Closed
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; <span id="currentYear"></span> Jibolink Contractor Nigeria Limited. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
